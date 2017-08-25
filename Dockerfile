@@ -1,5 +1,5 @@
 FROM maven:alpine
-MAINTAINER kyle
+MAINTAINER kyle <"none@gmail.com">
 
 EXPOSE 8888
 COPY build/libs/*.jar /opt/config-server/
